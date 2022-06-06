@@ -1,0 +1,26 @@
+.js .detalhe__comparativo {
+	opacity: 1;
+	transition: .3s all ease-out;
+}
+
+.js .anima__detalhe-comparativo {
+	opacity: 1;
+
+	transition: .3s all ease-out;
+}
+.anima__container{
+	opacity: 1;
+}
+@media (max-width:1200px){
+	.js .anime-right {
+		opacity: 1;
+		transform: translate3D(0, 0px, 0px);
+		transition: .3s all ease-out;
+	}
+	
+	.js .anime-init-right {
+		opacity: 1;
+		transform: translate3D(0px, 0px, 0px);
+		transition: .3s all ease-out;
+	}
+}

@@ -1,0 +1,3285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <style type="text/css" media="screen, print">
+            @font-face {
+            font-family: 'SF UI Display Ultralight';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF UI Display Ultralight'), url('./Fonts/SF-UI-DISPLAY/sf-ui-display-ultralight-58646b19bf205.woff') format('woff');
+            }
+            @font-face {
+            font-family: 'SF UI Display Light';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF UI Display Light'), url("./Fonts/SF-UI-DISPLAY/sf-ui-display-light-58646b33e0551.woff") format('woff');
+            }
+
+            @font-face {
+            font-family: 'SF UI Display Medium';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF UI Display Medium'), url("./Fonts/SF-UI-DISPLAY/sf-ui-display-medium-58646be638f96.woff") format('woff');
+            }
+            @font-face {
+            font-family: 'SF UI Display Thin';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF UI Display Thin'), url('./Fonts/SF-UI-DISPLAY/sf-ui-display-thin-58646e9b26e8b.woff') format('woff');
+            }
+            @font-face {
+            font-family: 'SF UI Display Semibold';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF UI Display Semibold'), url('./Fonts/SF-UI-DISPLAY/sf-ui-display-semibold-58646eddcae92.woff') format('woff');
+            }
+            
+
+            @font-face {
+            font-family: 'SF UI Display Bold';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF UI Display Bold'), url('./Fonts/SF-UI-DISPLAY/sf-ui-display-bold-58646a511e3d9.woff') format('woff');
+            }
+            
+
+            @font-face {
+            font-family: 'SF UI Display Heavy';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF UI Display Heavy'), url('./Fonts/SF-UI-DISPLAY/sf-ui-display-heavy-586470160b9e5.woff') format('woff');
+            }
+            
+
+            @font-face {
+            font-family: 'SF UI Display Black';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF UI Display Black'), url('./Fonts/SF-UI-DISPLAY/sf-ui-display-black-58646a6b80d5a.woff') format('woff');
+            }
+        </style>
+        <link rel="stylesheet" href="./CSS/Perfil/perfil.css">
+        <link rel="stylesheet" href="./CSS/Perfil/perfilResponsivo.css">
+        <link rel="stylesheet" href="./CSS/ComponentesCSS/slideShow.css">
+        <link rel="stylesheet" href="./CSS/ComponentesCSS/cabecalho.css">
+        <link rel="stylesheet" href="./CSS/ComponentesCSS/rodape.css">
+        <link rel="stylesheet" href="./CSS/ComponentesCSS/cabecalhoResponsivo.css">
+        <link rel="stylesheet" href="./CSS/ComponentesCSS/rodapeResponsivo.css">
+        <link href="./CSS/base.css" rel="stylesheet">
+        <link href="./CSS/reset.css" rel="stylesheet">
+        <link href="./CSS/normalize.css" rel="stylesheet">
+        <title>Perfil | Detalhei</title>
+        <link rel="shortcut icon" href="./Assets/Vetores/Logo-Detalhei.svg" type="image/x-icon"/>
+    </head>
+
+    <body id="body">
+        
+        <header class="cabecalho">
+
+            <section class="container___cabecalho" id="container__cabecalho___logado">
+                
+                <a href="./feed-detalhei.html">
+                   <img src="./Assets/Vetores/LOGO-DETALHIE-NOME.svg" alt="Logo Detalhei" class="logo__detalhei">
+                </a>
+                <section id="secao__pesquisa___cabecalho-desktop" class="secao__pesquisa___cabecalho" onmouseleave="fechaResultadoPesquisa()">
+                    <input type="text" class="input__busca-navegacao" placeholder="Faça aqui sua pesquisa" onfocus="abreResultadoPesquisa()">
+
+                    <section class="secao__resultado___pesquisa-cabecalho" onmouseover="abreResultadoPesquisa()" onmouseleave="fechaResultadoPesquisa()">
+
+                        <h1 class="nome__resultado___pesquisa-cabecalho">Buscando por: Panela de pressão eletrica (10 resultados)</h1>
+
+                        <section class="lista__resultado___pesquisa-cabecalho">
+
+                            <h2 class="titulo__lista___pesquisa-cabecalho">Produtos</h2>
+
+                            <ul class="lista__pesquisa___cabecalho">
+
+                                <a href="./revisao.html" class="item__pesquisa___cabecalho">
+
+                                    <img src="./Assets/Produtos/Imagens/imagem-produto.png" alt="Image Produto" class="imagem__produto___pesquisa-cabecalho">
+
+                                    <section class="secao__info___produto-pesquisa">
+
+                                        <div class="container__info___produto-pesquisa">
+                                            <h3 class="nome__info___produto-pesquisa">Panela de pressão eletrica</h3>
+                                            <span class="preco__info___produto-pesquisa">R$252,00</span>
+                                            <section class="container__custo-beneficio-cabecalho">
+
+                                                <h6 class="titulo__custo-beneficio-cabecalho">Custo-Benefício:</h6>
+                            
+                                                <div class="container__nota___custo-beneficio-cabecalho">
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                </div>
+                            
+                                            </section>
+                                        </div>
+
+                                        <button class="botao__tipo___produto tipo__produto___revisao">Revisão</button>
+
+                                    </section>
+
+                                </a>
+
+                                <a href="./avaliacao.html" class="item__pesquisa___cabecalho">
+
+                                    <img src="./Assets/Produtos/Imagens/imagem-produto.png" alt="Image Produto" class="imagem__produto___pesquisa-cabecalho">
+
+                                    <section class="secao__info___produto-pesquisa">
+
+                                        <div class="container__info___produto-pesquisa">
+                                            <h3 class="nome__info___produto-pesquisa">Panela de pressão eletrica</h3>
+                                            <span class="preco__info___produto-pesquisa">R$252,00</span>
+                                            <section class="container__custo-beneficio-cabecalho">
+
+                                                <h6 class="titulo__custo-beneficio-cabecalho">Custo-Benefício:</h6>
+                            
+                                                <div class="container__nota___custo-beneficio-cabecalho">
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                </div>
+                            
+                                            </section>
+                                        </div>
+
+                                        <button class="botao__tipo___produto tipo__produto___avaliacao">Avaliação</button>
+
+                                    </section>
+
+                                </a>
+
+                                <a href="./descricao.html" class="item__pesquisa___cabecalho">
+
+                                    <img src="./Assets/Produtos/Imagens/imagem-produto.png" alt="Image Produto" class="imagem__produto___pesquisa-cabecalho">
+
+                                    <section class="secao__info___produto-pesquisa">
+
+                                        <div class="container__info___produto-pesquisa">
+                                            <h3 class="nome__info___produto-pesquisa">Panela de pressão eletrica</h3>
+                                            <span class="preco__info___produto-pesquisa">R$252,00</span>
+                                            <section class="container__custo-beneficio-cabecalho">
+
+                                                <h6 class="titulo__custo-beneficio-cabecalho">Custo-Benefício:</h6>
+                            
+                                                <div class="container__nota___custo-beneficio-cabecalho">
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                </div>
+                            
+                                            </section>
+                                        </div>
+
+                                        <button class="botao__tipo___produto tipo__produto___descricao">Descrição</button>
+
+                                    </section>
+
+                                </a>
+
+                                <a href="./opiniao.html" class="item__pesquisa___cabecalho">
+
+                                    <img src="./Assets/Produtos/Imagens/imagem-produto.png" alt="Image Produto" class="imagem__produto___pesquisa-cabecalho">
+
+                                    <section class="secao__info___produto-pesquisa">
+
+                                        <div class="container__info___produto-pesquisa">
+                                            <h3 class="nome__info___produto-pesquisa">Panela de pressão eletrica</h3>
+                                            <span class="preco__info___produto-pesquisa">R$252,00</span>
+                                            <section class="container__custo-beneficio-cabecalho">
+
+                                                <h6 class="titulo__custo-beneficio-cabecalho">Custo-Benefício:</h6>
+                            
+                                                <div class="container__nota___custo-beneficio-cabecalho">
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                </div>
+                            
+                                            </section>
+                                        </div>
+
+                                        <button class="botao__tipo___produto tipo__produto___opiniao">Opinião</button>
+
+                                    </section>
+
+                                </a>
+
+
+                            </ul>
+
+                        </section>
+
+                    </section>
+
+                </section>
+                
+                <section class="secao__perfil-logado" onclick="abrePerfilDropdown()">
+                    <div class="container__perfil">
+                        <a class="container__perfil-logado" id="container__perfil-logado">
+
+                            <img src="./Assets/Icones-Perfis/icone-perfil-logado.png" alt="Icone Perfil Logado" class="icone__perfil-logado">
+            
+                            <span class="nome__perfil-logado">Cameron Williamson</span>
+            
+                            <button type="button" class="botao__abre-info___perfil"></button>
+
+                        </a>
+                    </div>
+                    <section class="secao__dropdown-perfil dropdown-cabecalho" id="dropdown">
+
+                        <a href="./seu-perfil.html" class="link__dropdown-perfil">Perfil</a>
+                        <a href="./feed-detalhei.html" class="link__dropdown-perfil">Feed</a>
+                        <a href="./minhas-opinioes.html" class="link__dropdown-perfil">Minhas opiniões</a>
+                        <a href="./login.html" class="link__dropdown-sair">SAIR</a>
+    
+                    </section>
+                </section>
+            
+            </section>
+
+            <nav class="container__navegacao___cabecalho" id="container__navegacao___cabecalho-desktop">
+                
+                <button class="container__botao___navegacao" onclick="abrirMenuAberto()">
+
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.72266 8.75H26.0615" stroke="white" stroke-width="2.57017" stroke-linecap="round"/>
+                        <path d="M3.72266 15H26.0615" stroke="white" stroke-width="2.57017" stroke-linecap="round"/>
+                        <path d="M3.72266 21.25H26.0615" stroke="white" stroke-width="2.57017" stroke-linecap="round"/>
+                    </svg>
+
+                </button>
+
+                <ul class="lista__navegacao">
+
+                    <li class="item__lista___navegacao" >
+                        <a href="./feed-detalhei.html" class="item__lista___navegacao-link">Detalhei</a>
+                    </li>
+                    
+                    <li class="item__lista___navegacao link-dropdown__top-5">
+                        <a href="./top-5.html" class="item__lista___navegacao-link dropdown-top-5">Top 5</a>
+
+                        <section class="secao__dropdown-top-5">
+
+                            <ul class="lista__dropdown-top-5">
+
+                                <a href="./top-5.html" class="link__dropdown-top-5">Air Fryers</a>
+
+                                <a href="./top-5.html" class="link__dropdown-top-5">Batedeiras Planetárias</a>
+
+                                <a href="./top-5.html" class="link__dropdown-top-5">Batedeiras Simples</a>
+
+                                <a href="./top-5.html" class="link__dropdown-top-5">Fornos elétricos</a>
+
+                                <a href="./top-5.html" class="link__dropdown-top-5">Liquidificadores</a>
+
+                            </ul>
+
+                        </section>
+                    </li>
+                    
+                    <li class="item__lista___navegacao" >
+                        <a href="./comparativo.html" class="item__lista___navegacao-link">Comparativo</a>
+                    </li>
+                    
+                    <li class="item__lista___navegacao link-dropdown__blog">
+                        <a href="./blog.html" class="item__lista___navegacao-link dropdown-blog">Blog</a>
+
+                        <section class="secao__dropdown-blog">
+
+                            <ul class="lista__dropdown-blog">
+
+                                <a href="./blog.html" class="link__dropdown-blog">Alé da casca</a>
+
+                                <a href="./blog.html" class="link__dropdown-blog">Dicas e curiosidades</a>
+
+                                <a href="./blog.html" class="link__dropdown-blog">Gastronomia</a>
+
+                                <a href="./blog.html" class="link__dropdown-blog">Lavandeira</a>
+
+                                <a href="./blog.html" class="link__dropdown-blog">Mundo dos produtos</a>
+
+                                <a href="./blog.html" class="link__dropdown-blog">Notícias</a>
+
+                                <a href="./blog.html" class="link__dropdown-blog">O Melhor para mim</a>
+
+                                <a href="./blog.html" class="link__dropdown-blog">Sustentabilidade</a>
+
+                            </ul>
+
+                        </section>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <nav class="container__navegacao___cabecalho" id="container__navegacao___cabecalho-mobile">
+                
+                <button class="container__botao___navegacao" onclick="abrirMenuAberto()">
+
+                    <svg class="botao__svg___menu" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.72266 8.75H26.0615" stroke="white" stroke-width="2.57017" stroke-linecap="round"/>
+                        <path d="M3.72266 15H26.0615" stroke="white" stroke-width="2.57017" stroke-linecap="round"/>
+                        <path d="M3.72266 21.25H26.0615" stroke="white" stroke-width="2.57017" stroke-linecap="round"/>
+                    </svg>
+
+                </button>
+
+                <section id="secao__pesquisa___cabecalho-mobile" class="secao__pesquisa___cabecalho">
+                    <input type="text" class="input__busca-navegacao-mobile" placeholder="Faça aqui sua pesquisa" onfocus="abreResultadoPesquisaMobile()" onclick="abreResultadoPesquisaMobile()">
+
+                    <section class="secao__resultado___pesquisa-cabecalho-mobile" onmouseover="abreResultadoPesquisaMobile()" onmouseleave="fechaResultadoPesquisaMobile()">
+
+                        <h1 class="nome__resultado___pesquisa-cabecalho">Buscando por: Panela de pressão eletrica (10 resultados)</h1>
+
+                        <section class="lista__resultado___pesquisa-cabecalho">
+
+                            <h2 class="titulo__lista___pesquisa-cabecalho">Produtos</h2>
+
+                            <ul class="lista__pesquisa___cabecalho">
+
+                                <a href="./revisao.html" class="item__pesquisa___cabecalho">
+
+                                    <img src="./Assets/Produtos/Imagens/imagem-produto.png" alt="Image Produto" class="imagem__produto___pesquisa-cabecalho">
+
+                                    <section class="secao__info___produto-pesquisa">
+
+                                        <div class="container__info___produto-pesquisa">
+                                            <h3 class="nome__info___produto-pesquisa">Panela de pressão eletrica</h3>
+                                            <span class="preco__info___produto-pesquisa">R$252,00</span>
+                                            <section class="container__custo-beneficio-cabecalho">
+
+                                                <h6 class="titulo__custo-beneficio-cabecalho">Custo-Benefício:</h6>
+                            
+                                                <div class="container__nota___custo-beneficio-cabecalho">
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                </div>
+                            
+                                            </section>
+                                        </div>
+
+                                        <button class="botao__tipo___produto tipo__produto___revisao">Revisão</button>
+
+                                    </section>
+
+                                </a>
+
+                                <a href="./avaliacao.html" class="item__pesquisa___cabecalho">
+
+                                    <img src="./Assets/Produtos/Imagens/imagem-produto.png" alt="Image Produto" class="imagem__produto___pesquisa-cabecalho">
+
+                                    <section class="secao__info___produto-pesquisa">
+
+                                        <div class="container__info___produto-pesquisa">
+                                            <h3 class="nome__info___produto-pesquisa">Panela de pressão eletrica</h3>
+                                            <span class="preco__info___produto-pesquisa">R$252,00</span>
+                                            <section class="container__custo-beneficio-cabecalho">
+
+                                                <h6 class="titulo__custo-beneficio-cabecalho">Custo-Benefício:</h6>
+                            
+                                                <div class="container__nota___custo-beneficio-cabecalho">
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                </div>
+                            
+                                            </section>
+                                        </div>
+
+                                        <button class="botao__tipo___produto tipo__produto___avaliacao">Avaliação</button>
+
+                                    </section>
+
+                                </a>
+
+                                <a href="./descricao.html" class="item__pesquisa___cabecalho">
+
+                                    <img src="./Assets/Produtos/Imagens/imagem-produto.png" alt="Image Produto" class="imagem__produto___pesquisa-cabecalho">
+
+                                    <section class="secao__info___produto-pesquisa">
+
+                                        <div class="container__info___produto-pesquisa">
+                                            <h3 class="nome__info___produto-pesquisa">Panela de pressão eletrica</h3>
+                                            <span class="preco__info___produto-pesquisa">R$252,00</span>
+                                            <section class="container__custo-beneficio-cabecalho">
+
+                                                <h6 class="titulo__custo-beneficio-cabecalho">Custo-Benefício:</h6>
+                            
+                                                <div class="container__nota___custo-beneficio-cabecalho">
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                </div>
+                            
+                                            </section>
+                                        </div>
+
+                                        <button class="botao__tipo___produto tipo__produto___descricao">Descrição</button>
+
+                                    </section>
+
+                                </a>
+
+                                <a href="./opiniao.html" class="item__pesquisa___cabecalho">
+
+                                    <img src="./Assets/Produtos/Imagens/imagem-produto.png" alt="Image Produto" class="imagem__produto___pesquisa-cabecalho">
+
+                                    <section class="secao__info___produto-pesquisa">
+
+                                        <div class="container__info___produto-pesquisa">
+                                            <h3 class="nome__info___produto-pesquisa">Panela de pressão eletrica</h3>
+                                            <span class="preco__info___produto-pesquisa">R$252,00</span>
+                                            <section class="container__custo-beneficio-cabecalho">
+
+                                                <h6 class="titulo__custo-beneficio-cabecalho">Custo-Benefício:</h6>
+                            
+                                                <div class="container__nota___custo-beneficio-cabecalho">
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                    <span class="nota__custo-beneficio-cabecalho"></span>
+                            
+                                                </div>
+                            
+                                            </section>
+                                        </div>
+
+                                        <button class="botao__tipo___produto tipo__produto___opiniao">Opinião</button>
+
+                                    </section>
+
+                                </a>
+
+
+                            </ul>
+
+                        </section>
+
+                    </section>
+
+                </section>
+                
+            </nav>
+
+            <div class="container__menu-aberto">
+                <section class="secao__menu-aberto">
+
+                    <div class="container__perfil___menu-aberto container__perfil___menu-aberto-logado">
+
+                        <section class="secao__perfil-logado" onclick="abrePerfilDropdownMenu()">
+                            <div class="container__perfil">
+                                <a class="container__perfil-logado" id="container__perfil-logado">
+        
+                                    <img src="./Assets/Icones-Perfis/icone-perfil-logado.png" alt="Icone Perfil Logado" class="icone__perfil-logado">
+                    
+                                    <span class="nome__perfil-logado" id="nome__perfil-logado___menu-aberto">Cameron Williamson</span>
+                    
+                                    <button type="button" class="botao__abre-info___perfil" id="botao__abre-info___perfil-menu-aberto"></button>
+        
+                                </a>
+                            </div>
+                            <section class="secao__dropdown-perfil dropdown-perfil-menu" id="dropdown">
+        
+                                <a href="./seu-perfil.html" class="link__dropdown-perfil">Perfil</a>
+                                <a href="./feed-detalhei.html" class="link__dropdown-perfil">Feed</a>
+                                <a href="./minhas-opinioes.html" class="link__dropdown-perfil">Minhas opiniões</a>
+                                <a href="./login.html" class="link__dropdown-sair">SAIR</a>
+            
+                            </section>
+                        </section>
+
+                        <button class="botao__fecha___menu-aberto" onclick="fechaMenuAberto()"></button>
+
+                    </div>
+
+                    <img src="./Assets/Vetores/logo-detalhei-menu-aberto.svg" alt="Logo Detalhei" class="logo__detalhei___menu-aberto">
+
+                    <section class="secao__link___menu-aberto" onclick="fechaPerfilDropdownMenu()">
+                        <h1 class="titulo__link___menu-aberto">Produtos</h1>
+
+                        <ul class="lista__link___menu-aberto" id="lista__link___menu-aberto-produtos">
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="tablinksLinkMenuAberto botao__link___menu-aberto" onclick="openTabMenuAbertoLink(event, 'todos-produtos')" >Todos os Produtos 
+                                    
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="tablinksLinkMenuAberto botao__link___menu-aberto" onclick="openTabMenuAbertoLink(event, 'casa')">Casa 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Cozinha 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Cuidados Pessoais 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Limpeza 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Produtos Curiosos 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Todos os Produtos 
+                                    
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg></button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Casa 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Cozinha 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Cuidados Pessoais 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Limpeza 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Produtos Curiosos 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Cuidados Pessoais 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Limpeza 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto">
+
+                                <button class="botao__link___menu-aberto">Produtos Curiosos 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                                    <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                                    </svg>
+
+                                </button>
+
+                            </li>
+
+                        </ul>
+
+                        <div class="container__botao___ver-mais">
+                            <button class="botao__ver-todos" id="botao-ver-mais-menu-aberto" onclick="abreVerTodosProdutos()">
+                                Ver tudo 
+                            
+                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M12.7109 22.8928C18.2338 22.8928 22.7109 18.4157 22.7109 12.8928C22.7109 7.36997 18.2338 2.89282 12.7109 2.89282C7.18809 2.89282 2.71094 7.36997 2.71094 12.8928C2.71094 18.4157 7.18809 22.8928 12.7109 22.8928Z" fill="#CACACA"/>
+                                    <path d="M12.7111 15.9027C12.5211 15.9027 12.3311 15.8327 12.1811 15.6827L8.65109 12.1527C8.36109 11.8627 8.36109 11.3827 8.65109 11.0927C8.94109 10.8027 9.42109 10.8027 9.71109 11.0927L12.7111 14.0927L15.7111 11.0927C16.0011 10.8027 16.4811 10.8027 16.7711 11.0927C17.0611 11.3827 17.0611 11.8627 16.7711 12.1527L13.2411 15.6827C13.0911 15.8327 12.9011 15.9027 12.7111 15.9027Z" fill="#141414"/>
+                                </svg>
+                            </button>
+
+                            <button class="botao__ver-todos" id="botao-ver-menos-menu-aberto" onclick="fecharVerTodosProdutos()">
+                                Ver menos 
+                            
+                                <svg id="vetor-ver-menos-menu" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M12.7109 22.8928C18.2338 22.8928 22.7109 18.4157 22.7109 12.8928C22.7109 7.36997 18.2338 2.89282 12.7109 2.89282C7.18809 2.89282 2.71094 7.36997 2.71094 12.8928C2.71094 18.4157 7.18809 22.8928 12.7109 22.8928Z" fill="#CACACA"/>
+                                    <path d="M12.7111 15.9027C12.5211 15.9027 12.3311 15.8327 12.1811 15.6827L8.65109 12.1527C8.36109 11.8627 8.36109 11.3827 8.65109 11.0927C8.94109 10.8027 9.42109 10.8027 9.71109 11.0927L12.7111 14.0927L15.7111 11.0927C16.0011 10.8027 16.4811 10.8027 16.7711 11.0927C17.0611 11.3827 17.0611 11.8627 16.7711 12.1527L13.2411 15.6827C13.0911 15.8327 12.9011 15.9027 12.7111 15.9027Z" fill="#141414"/>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <h2 class="titulo__link___menu-aberto">Destaque da semana</h2>
+
+                        <ul class="lista__link___menu-aberto">
+
+                            <li class="item__link___menu-aberto">
+
+                                <a href="./comparativo.html" class="botao__link___menu-aberto">Comparativo</a>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto" id="link__menu-aberto___top-5">
+
+                                <button class="botao__link___menu-aberto" id="botao__link___abre-top5" onclick="abreVerTop5()">Top 5 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4" d="M12.7109 22.8928C18.2338 22.8928 22.7109 18.4157 22.7109 12.8928C22.7109 7.36997 18.2338 2.89282 12.7109 2.89282C7.18809 2.89282 2.71094 7.36997 2.71094 12.8928C2.71094 18.4157 7.18809 22.8928 12.7109 22.8928Z" fill="#CACACA"/>
+                                        <path d="M12.7111 15.9027C12.5211 15.9027 12.3311 15.8327 12.1811 15.6827L8.65109 12.1527C8.36109 11.8627 8.36109 11.3827 8.65109 11.0927C8.94109 10.8027 9.42109 10.8027 9.71109 11.0927L12.7111 14.0927L15.7111 11.0927C16.0011 10.8027 16.4811 10.8027 16.7711 11.0927C17.0611 11.3827 17.0611 11.8627 16.7711 12.1527L13.2411 15.6827C13.0911 15.8327 12.9011 15.9027 12.7111 15.9027Z" fill="#141414"/>
+                                    </svg>
+
+                                </button>
+
+                                <button class="botao__link___menu-aberto" id="botao__link___fecha-top5" onclick="fecharVerTop5()">Top 5 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4" d="M12.7109 22.8928C18.2338 22.8928 22.7109 18.4157 22.7109 12.8928C22.7109 7.36997 18.2338 2.89282 12.7109 2.89282C7.18809 2.89282 2.71094 7.36997 2.71094 12.8928C2.71094 18.4157 7.18809 22.8928 12.7109 22.8928Z" fill="#CACACA"/>
+                                        <path d="M12.7111 15.9027C12.5211 15.9027 12.3311 15.8327 12.1811 15.6827L8.65109 12.1527C8.36109 11.8627 8.36109 11.3827 8.65109 11.0927C8.94109 10.8027 9.42109 10.8027 9.71109 11.0927L12.7111 14.0927L15.7111 11.0927C16.0011 10.8027 16.4811 10.8027 16.7711 11.0927C17.0611 11.3827 17.0611 11.8627 16.7711 12.1527L13.2411 15.6827C13.0911 15.8327 12.9011 15.9027 12.7111 15.9027Z" fill="#141414"/>
+                                    </svg>
+
+                                </button>
+
+                                <section class="secao__lista___top-5-menu-aberto">
+
+                                    <a href="./top-5.html" class="link__top-5___menu-aberto">Air Fryers</a>
+
+                                    <a href="./top-5.html" class="link__top-5___menu-aberto">Batedeiras Planetárias</a>
+
+                                    <a href="./top-5.html" class="link__top-5___menu-aberto">Batedeiras Simples</a>
+
+                                    <a href="./top-5.html" class="link__top-5___menu-aberto">Fornos elétricos</a>
+
+                                    <a href="./top-5.html" class="link__top-5___menu-aberto">Liquidificadores</a>
+
+                                </section>
+
+                            </li>
+
+                            <li class="item__link___menu-aberto" id="link__menu-aberto___blog">
+
+                                <button class="botao__link___menu-aberto" id="botao__link___abre-blog" onclick="abreVerBlog()">Blog 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4" d="M12.7109 22.8928C18.2338 22.8928 22.7109 18.4157 22.7109 12.8928C22.7109 7.36997 18.2338 2.89282 12.7109 2.89282C7.18809 2.89282 2.71094 7.36997 2.71094 12.8928C2.71094 18.4157 7.18809 22.8928 12.7109 22.8928Z" fill="#CACACA"/>
+                                        <path d="M12.7111 15.9027C12.5211 15.9027 12.3311 15.8327 12.1811 15.6827L8.65109 12.1527C8.36109 11.8627 8.36109 11.3827 8.65109 11.0927C8.94109 10.8027 9.42109 10.8027 9.71109 11.0927L12.7111 14.0927L15.7111 11.0927C16.0011 10.8027 16.4811 10.8027 16.7711 11.0927C17.0611 11.3827 17.0611 11.8627 16.7711 12.1527L13.2411 15.6827C13.0911 15.8327 12.9011 15.9027 12.7111 15.9027Z" fill="#141414"/>
+                                    </svg>
+
+                                </button>
+
+                                <button class="botao__link___menu-aberto" id="botao__link___fecha-blog" onclick="fecharVerBlog()">Blog 
+
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4" d="M12.7109 22.8928C18.2338 22.8928 22.7109 18.4157 22.7109 12.8928C22.7109 7.36997 18.2338 2.89282 12.7109 2.89282C7.18809 2.89282 2.71094 7.36997 2.71094 12.8928C2.71094 18.4157 7.18809 22.8928 12.7109 22.8928Z" fill="#CACACA"/>
+                                        <path d="M12.7111 15.9027C12.5211 15.9027 12.3311 15.8327 12.1811 15.6827L8.65109 12.1527C8.36109 11.8627 8.36109 11.3827 8.65109 11.0927C8.94109 10.8027 9.42109 10.8027 9.71109 11.0927L12.7111 14.0927L15.7111 11.0927C16.0011 10.8027 16.4811 10.8027 16.7711 11.0927C17.0611 11.3827 17.0611 11.8627 16.7711 12.1527L13.2411 15.6827C13.0911 15.8327 12.9011 15.9027 12.7111 15.9027Z" fill="#141414"/>
+                                    </svg>
+
+                                </button>
+
+                                <section class="secao__lista___blog-menu-aberto">
+
+                                    <a href="./blog.html" class="link__blog___menu-aberto">Alé da casca</a>
+
+                                    <a href="./blog.html" class="link__blog___menu-aberto">Dicas e curiosidades</a>
+
+                                    <a href="./blog.html" class="link__blog___menu-aberto">Gastronomia</a>
+
+                                    <a href="./blog.html" class="link__blog___menu-aberto">Lavandeira</a>
+
+                                    <a href="./blog.html" class="link__blog___menu-aberto">Mundo dos produtos</a>
+
+                                    <a href="./blog.html" class="link__blog___menu-aberto">Notícias</a>
+
+                                    <a href="./blog.html" class="link__blog___menu-aberto">O Melhor para mim</a>
+
+                                    <a href="./blog.html" class="link__blog___menu-aberto">Sustentabilidade</a>
+
+                                </section>
+
+                            </li>   
+
+                        </ul>
+
+                    </section>
+
+                </section>
+
+                <section class="secao__conteudo___link-menu tabcontentLinkMenuAberto" id="todos-produtos">
+
+                    <div class="container__perfil___menu-aberto container__perfil___menu-aberto-logado">
+
+                        <section class="secao__perfil-logado">
+                        <div class="container__perfil">
+                            <a class="container__perfil-logado" id="container__perfil-logado">
+
+                                <img src="./Assets/Icones-Perfis/icone-perfil-logado.png" alt="Icone Perfil Logado" class="icone__perfil-logado">
+                            
+                                <span class="nome__perfil-logado" id="nome__perfil-logado___menu-aberto">Cameron Williamson</span>
+                            
+                                <button type="button" class="botao__abre-info___perfil" id="botao__abre-info___perfil-menu-aberto"></button>
+
+                            </a>
+                        </div>
+                    <section class="secao__dropdown-perfil" id="dropdown">
+
+                        <a href="./seu-perfil.html" class="link__dropdown-perfil">Perfil</a>
+                        <a href="./feed-detalhei.html" class="link__dropdown-perfil">Feed</a>
+                        <a href="./minhas-opinioes.html" class="link__dropdown-perfil">Minhas opiniões</a>
+                        <a href="./login.html" class="link__dropdown-sair">SAIR</a>
+    
+                    </section>
+                </section>
+
+                        <button class="botao__fecha___menu-aberto" onclick="fechaMenuAberto()"></button>
+
+                    </div>
+
+                    <section class="secao__links___conteudo___menu">
+
+                        <button onclick="voltaMenuAberto()" class="botao__volta___menu-aberto">  
+                            
+                            <svg id="vetor-volta-menu-aberto" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                            <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                            </svg>
+                            
+                            Voltar
+                        
+                        </button>
+
+                        <ul class="lista__links___conteudo-menu">
+
+                            <h4 class="titulo__links___conteudo-menu">Cozinha</h4>
+
+                            <a href="./produtos.html" class="item__lista___link-conteudo-menu">
+
+                                Eletrodomèsticos
+
+                            </a>
+
+                            <a href="./produtos.html" class="item__lista___link-conteudo-menu">
+
+                                Eletroportáteis
+
+                            </a>
+
+                            <a href="./produtos.html" class="item__lista___link-conteudo-menu">
+
+                                Café, Chá e Expresso
+
+                            </a>
+
+                        </ul>
+
+                    </section>
+
+                </section>
+
+                <section class="secao__conteudo___link-menu tabcontentLinkMenuAberto" id="casa">
+
+                    <div class="container__perfil___menu-aberto container__perfil___menu-aberto-logado">
+
+                        <section class="secao__perfil-logado">
+                        <div class="container__perfil">
+                            <a class="container__perfil-logado" id="container__perfil-logado">
+
+                                <img src="./Assets/Icones-Perfis/icone-perfil-logado.png" alt="Icone Perfil Logado" class="icone__perfil-logado">
+                            
+                                <span class="nome__perfil-logado" id="nome__perfil-logado___menu-aberto">Cameron Williamson</span>
+                            
+                                <button type="button" class="botao__abre-info___perfil" id="botao__abre-info___perfil-menu-aberto"></button>
+
+                            </a>
+                        </div>
+                    <section class="secao__dropdown-perfil" id="dropdown">
+
+                        <a href="./seu-perfil.html" class="link__dropdown-perfil">Perfil</a>
+                        <a href="./feed-detalhei.html" class="link__dropdown-perfil">Feed</a>
+                        <a href="./minhas-opinioes.html" class="link__dropdown-perfil">Minhas opiniões</a>
+                        <a href="./login.html" class="link__dropdown-sair">SAIR</a>
+    
+                    </section>
+                </section>
+
+                        <button class="botao__fecha___menu-aberto" onclick="fechaMenuAberto()"></button>
+
+                    </div>
+
+                    <section class="secao__links___conteudo___menu">
+
+                        <button onclick="voltaMenuAberto()" class="botao__volta___menu-aberto">  
+                            
+                            <svg id="vetor-volta-menu-aberto" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M22.2109 12.8928C22.2109 7.36997 17.7338 2.89282 12.2109 2.89282C6.68809 2.89282 2.21094 7.36997 2.21094 12.8928C2.21094 18.4157 6.68809 22.8928 12.2109 22.8928C17.7338 22.8928 22.2109 18.4157 22.2109 12.8928Z" fill="#CACACA"/>
+                            <path d="M15.2209 12.8929C15.2209 13.0829 15.1509 13.2729 15.0009 13.4229L11.4709 16.9529C11.1809 17.2429 10.7009 17.2429 10.4109 16.9529C10.1209 16.6629 10.1209 16.1829 10.4109 15.8929L13.4109 12.8929L10.4109 9.89291C10.1209 9.60291 10.1209 9.12291 10.4109 8.83291C10.7009 8.54291 11.1809 8.54291 11.4709 8.83291L15.0009 12.3629C15.1509 12.5129 15.2209 12.7029 15.2209 12.8929Z" fill="#292D32"/>
+                            </svg>
+                            
+                            Voltar
+                        
+                        </button>
+
+                        <ul class="lista__links___conteudo-menu">
+
+                            <h4 class="titulo__links___conteudo-menu">Casa</h4>
+
+                            <a href="./produtos.html" class="item__lista___link-conteudo-menu">
+
+                                Eletrodomèsticos
+
+                            </a>
+
+                            <a href="./produtos.html" class="item__lista___link-conteudo-menu">
+
+                                Eletroportáteis
+
+                            </a>
+
+                            <a href="./produtos.html" class="item__lista___link-conteudo-menu">
+
+                                Café, Chá e Expresso
+
+                            </a>
+
+                        </ul>
+
+                    </section>
+
+                </section>
+                          
+
+            </div>
+        </header>
+
+
+        <main class="conteudo" onclick="fechaPerfilDropdown(), fechaResultadoPesquisaMobile()">
+
+            <section class="secao__banner___perfil">
+
+                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-perfil.png" alt="Imagem Banner" class="imagem__banner___perfil">
+
+
+                <section class="secao__info___banner-perfil">
+
+                    <div class="container__imagem-info___perfil">
+                        <img src="./Assets/Perfil/Icones-Perfil/icone-perfil-1.png" alt="Perfil" class="imagem__perfil">
+
+                        <div class="info-imagem__perfil">
+
+                            <h1 class="titulo__info-perfil">Jenny Wilson</h1>
+                            <span class="numeros-seguidores-info">1.524,00 seguidores</span>
+
+                        </div>
+
+                    </div>
+
+                    <p class="descricao__info-perfil">Jenny Wilson é um chef de cozinha francês, naturalizado brasileiro.</p>
+
+                    <section class="secao__redes-info___perfil">
+
+                        <a href="#" class="link__rede-info___perfil">
+
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_2098_48064)"/>
+                                <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_2098_48064)"/>
+                                <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_2098_48064)"/>
+                                <path d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z" fill="white"/>
+                                <defs>
+                                <radialGradient id="paint0_radial_2098_48064" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)">
+                                <stop stop-color="#B13589"/>
+                                <stop offset="0.79309" stop-color="#C62F94"/>
+                                <stop offset="1" stop-color="#8A3AC8"/>
+                                </radialGradient>
+                                <radialGradient id="paint1_radial_2098_48064" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)">
+                                <stop stop-color="#E0E8B7"/>
+                                <stop offset="0.444662" stop-color="#FB8A2E"/>
+                                <stop offset="0.71474" stop-color="#E2425C"/>
+                                <stop offset="1" stop-color="#E2425C" stop-opacity="0"/>
+                                </radialGradient>
+                                <radialGradient id="paint2_radial_2098_48064" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)">
+                                <stop offset="0.156701" stop-color="#406ADC"/>
+                                <stop offset="0.467799" stop-color="#6A45BE"/>
+                                <stop offset="1" stop-color="#6A45BE" stop-opacity="0"/>
+                                </radialGradient>
+                                </defs>
+                            </svg>
+
+                        </a>
+
+                        <a href="#" class="link__rede-info___perfil">
+
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.24451 9.94111C2.37304 7.96233 3.96395 6.41157 5.94447 6.31345C8.81239 6.17136 12.9115 6 16 6C19.0885 6 23.1876 6.17136 26.0555 6.31345C28.0361 6.41157 29.627 7.96233 29.7555 9.94111C29.8786 11.8369 30 14.1697 30 16C30 17.8303 29.8786 20.1631 29.7555 22.0589C29.627 24.0377 28.0361 25.5884 26.0555 25.6866C23.1876 25.8286 19.0885 26 16 26C12.9115 26 8.81239 25.8286 5.94447 25.6866C3.96395 25.5884 2.37304 24.0377 2.24451 22.0589C2.12136 20.1631 2 17.8303 2 16C2 14.1697 2.12136 11.8369 2.24451 9.94111Z" fill="#FC0D1B"/>
+                                <path d="M13 12V20L21 16L13 12Z" fill="white"/>
+                            </svg>
+
+                        </a>
+
+                        <a href="#" class="link__rede-info___perfil">
+
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.7887 28C8.55374 28 5.53817 27.0591 3 25.4356C5.15499 25.5751 8.95807 25.2411 11.3236 22.9848C7.76508 22.8215 6.16026 20.0923 5.95094 18.926C6.25329 19.0426 7.6953 19.1826 8.50934 18.856C4.4159 17.8296 3.78793 14.2373 3.92748 13.141C4.695 13.6775 5.99745 13.8641 6.50913 13.8174C2.69479 11.0882 4.06703 6.98276 4.74151 6.09635C7.47882 9.88867 11.5812 12.0186 16.6564 12.137C16.5607 11.7174 16.5102 11.2804 16.5102 10.8316C16.5102 7.61092 19.1134 5 22.3247 5C24.0025 5 25.5144 5.71275 26.5757 6.85284C27.6969 6.59011 29.3843 5.97507 30.2092 5.4432C29.7934 6.93611 28.4989 8.18149 27.7159 8.64308C27.7224 8.65878 27.7095 8.62731 27.7159 8.64308C28.4037 8.53904 30.2648 8.18137 31 7.68256C30.6364 8.52125 29.264 9.91573 28.1377 10.6964C28.3473 19.9381 21.2765 28 11.7887 28Z" fill="#47ACDF"/>
+                            </svg>
+
+                        </a>
+
+                    </section>
+
+                    <section class="secao__botoes___info-perfil">
+
+                        <button class="botao__seguir-info___perfil botao__seguir-ativo">Seguir</button>
+
+                        <button class="botao__seguindo-info___perfil">Seguindo</button>
+
+                        <a class="botao__compartilha-info___perfil" href="javascript:void(0)" onclick="share()">Compartilhar</a>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <section class="secao__seguidores-perfil">
+
+                <section class="secao__cabecalho___seguidores">
+
+                    <div class="container__primeiro-cabecalho">
+
+                        <div class="container__numero-seguidores">
+
+                            <span class="nome-perfil__seguidores">Jenny Wilson está seguindo</span>
+                            <span class="numero-seguidores__cabecalho"> 967 </span>
+
+                        </div>
+
+                        <div class="tabs-cabecalho__seguidores">
+                            <button class="tablinks tab-pessoas" id="defaultOpen" onclick="openTab(event, 'pessoas')">Pessoas</button>
+                            <button class="tablinks tab-marcas" onclick="openTab(event, 'marcas')">Marca</button>
+                            <button class="tablinks tab-categorias" onclick="openTab(event, 'categorias')">Categorias</button>
+                            <button class="tablinks tab-comunidade" onclick="openTab(event, 'comunidade')">Comunidade</button>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="secao__card___seguidores tabcontent" id="pessoas">
+                    <button class="botao__ver-todos-seguidores" onclick="abrirSeguidores()">Ver todos</button>
+
+                    <ul class="lista__seguidores">
+                        <div class="container__seguidor">
+
+                            <a href="./perfil.html" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-2.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Darlene Robertson</span>
+                                    <img draggable="false" src="./Assets/Feed/Imagem-feed/icone-brasil-topicos.png" alt="Imagem Origem Marca" class="imagem__origem-seguidor">
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Darlene_Robertson</span>
+
+                            <button class="botao__seguir___seguidor">Seguir</button>
+
+                            <button class="botao__seguindo___seguidor  botao__seguir-ativo">Seguindo</button>
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-3.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Leslie Alexander</span>
+                                    <img draggable="false" src="./Assets/Feed/Imagem-feed/icone-brasil-topicos.png" alt="Imagem Origem Marca" class="imagem__origem-seguidor">
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Leslie_Alexander</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-4.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Kathryn Murphy</span>
+                                    <img draggable="false" src="./Assets/Feed/Imagem-feed/icone-brasil-topicos.png" alt="Imagem Origem Marca" class="imagem__origem-seguidor">
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Kathryn_Murphy</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-5.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Jerome Bell</span>
+                                    <img draggable="false" src="./Assets/Feed/Imagem-feed/icone-brasil-topicos.png" alt="Imagem Origem Marca" class="imagem__origem-seguidor">
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Jerome_Bell</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+                    </ul>
+                </section>
+
+                <section class="secao__card___seguidores tabcontent" id="marcas">
+
+                    <button class="botao__ver-todos-seguidores" onclick="abrirMarcas()">Ver todos</button>
+
+                    <ul class="lista__seguidores">
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/eletrolux.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Electrolux</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Electrolux</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/nike.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Nike</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Nike</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Opiniao/Imagem/imagem-marcas-philco.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Philco</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Philco</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/panasonic.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Panasonic</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Panasonic</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+                    </ul>
+                </section>
+
+                <section class="secao__card___seguidores tabcontent" id="categorias">
+
+                    <button class="botao__ver-todos-seguidores" onclick="abrirCategorias()">Ver todos</button>
+
+                    <ul class="lista__seguidores">
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/eletrodomestico.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Eletrodomésticos</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Eletrodomésticos</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/carro.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Carros</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Carros</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/moto.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Moto</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Moto</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/cafeteira.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Cafeteira</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Cafeteira</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+                    </ul>
+                </section>
+
+                <section class="secao__card___seguidores tabcontent" id="comunidade">
+
+                    <button class="botao__ver-todos-seguidores" onclick="abrirComunidade()">Ver todos</button>
+
+                    <ul class="lista__seguidores">
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/comunidade.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Classificados Pelotas</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Classificados_Pelotas</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/nike.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Nike Ofertas</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Nike_Ofertas</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Opiniao/Imagem/imagem-marcas-philco.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Comunidade Philco</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Comunidade_Philco</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+
+                        <div class="container__seguidor">
+
+                            <a href="#" class="link__seguidor">
+                                <img draggable="false" src="./Assets/Perfil/Imagens-Banner/toyota.png" alt="Icone Perfil" class="imagem__seguidor">
+
+                                <div class="container__nome___seguidor">
+                                    <span class="nome__seguidor">Toyota Supra</span>
+                                    
+                                </div>
+                            </a>
+
+                            <span class="arroba__seguidor">@Toyota_Supra</span>
+
+                            <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                        </div>
+                    </ul>
+                </section>
+
+                <div class="container__seguidores-expandido" id="seguidores-expandido">
+                    <section class="secao__seguidores-expandido">
+                        
+                        <section class="secao__cabecalho___seguidores-expandido">
+
+                            <input type="search" class="input__pesquisa" placeholder="Pesquisa">
+
+                            <div class="container__botao___fecha">
+                                <button class="botao__fecha___seguidores-expandido" onclick="fechaSeguidores()"></button>
+                            </div>
+                        </section>
+                        
+                        
+                        <ul class="lista__seguidores-expandido">
+
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-2.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Darlene Robertson</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Darlene_Robertson</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-3.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Leslie Alexander</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Leslie_Alexander</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-4.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Kathryn Murphy</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Kathryn_Murphy</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-5.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Jerome Bell</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Jerome_Bell</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-3.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Leslie Alexander</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Leslie_Alexander</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-4.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Kathryn Murphy</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Kathryn_Murphy</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-5.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Jerome Bell</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Jerome_Bell</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-2.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Darlene Robertson</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Darlene_Robertson</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-3.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Leslie Alexander</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Leslie_Alexander</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-4.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Kathryn Murphy</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Kathryn_Murphy</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-5.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Jerome Bell</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Jerome_Bell</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-3.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Leslie Alexander</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Leslie_Alexander</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-4.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Kathryn Murphy</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Kathryn_Murphy</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Icones-Perfil/icone-perfil-5.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Jerome Bell</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Jerome_Bell</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+
+                        </ul>
+
+
+                    </section>
+                </div>
+
+                <div class="container__seguidores-expandido" id="marcas-expandido">
+
+                    <section class="secao__seguidores-expandido">
+                        
+                        <section class="secao__cabecalho___seguidores-expandido">
+
+                            <input type="search" class="input__pesquisa" placeholder="Pesquisa">
+
+                            <div class="container__botao___fecha">
+                                <button class="botao__fecha___seguidores-expandido" onclick="fechaMarcas()"></button>
+                            </div>
+
+                        </section>
+                        
+                        
+                        <ul class="lista__seguidores-expandido">
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/eletrolux.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Electrolux</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Electrolux</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/nike.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Nike</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Nike</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Opiniao/Imagem/imagem-marcas-philco.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Philco</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Philco</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/panasonic.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Panasonic</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Panasonic</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/eletrolux.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Electrolux</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Electrolux</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/nike.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Nike</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Nike</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Opiniao/Imagem/imagem-marcas-philco.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Philco</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Philco</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/panasonic.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Panasonic</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Panasonic</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/eletrolux.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Electrolux</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Electrolux</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/nike.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Nike</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Nike</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Opiniao/Imagem/imagem-marcas-philco.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Philco</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Philco</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/panasonic.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Panasonic</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Panasonic</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+
+                        </ul>
+
+
+                    </section>
+                </div>
+
+                <div class="container__seguidores-expandido" id="categorias-expandido">
+                    <section class="secao__seguidores-expandido">
+                        
+                        <section class="secao__cabecalho___seguidores-expandido">
+
+                            <input type="search" class="input__pesquisa" placeholder="Pesquisa">
+
+                            <div class="container__botao___fecha">
+                                <button class="botao__fecha___seguidores-expandido" onclick="fechaCategorias()"></button>
+                            </div>
+                        </section>
+                        
+                        
+                        <ul class="lista__seguidores-expandido">
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/eletrodomestico.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Eletrodomésticos</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Eletrodomésticos</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/carro.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Carros</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Carros</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/moto.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Moto</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Moto</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/cafeteira.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Cafeteira</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Cafeteira</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/eletrodomestico.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Eletrodomésticos</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Eletrodomésticos</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/carro.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Carros</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Carros</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/moto.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Moto</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Moto</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/cafeteira.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Cafeteira</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Cafeteira</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/eletrodomestico.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Eletrodomésticos</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Eletrodomésticos</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/carro.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Carros</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Carros</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/moto.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Moto</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Moto</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/cafeteira.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Cafeteira</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Cafeteira</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+
+                        </ul>
+
+
+                    </section>
+                </div>
+
+                <div class="container__seguidores-expandido" id="comunidade-expandido">
+                    <section class="secao__seguidores-expandido">
+                        
+                        <section class="secao__cabecalho___seguidores-expandido">
+
+                            <input type="search" class="input__pesquisa" placeholder="Pesquisa">
+
+                            <div class="container__botao___fecha">
+                                <button class="botao__fecha___seguidores-expandido" onclick="fechaComunidade()"></button>
+                            </div>
+                        </section>
+                        
+                        
+                        <ul class="lista__seguidores-expandido">
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/comunidade.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Classificados Pelotas</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Classificados_Pelotas</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/nike.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Nike Ofertas</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Nike_Ofertas</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Opiniao/Imagem/imagem-marcas-philco.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Comunidade Philco</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Comunidade_Philco</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/toyota.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Toyota Supra</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Toyota_Supra</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/comunidade.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Classificados Pelotas</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Classificados_Pelotas</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/nike.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Nike Ofertas</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Nike_Ofertas</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Opiniao/Imagem/imagem-marcas-philco.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Comunidade Philco</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Comunidade_Philco</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/toyota.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Toyota Supra</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Toyota_Supra</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+                            <div class="container__seguidor">
+
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/comunidade.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Classificados Pelotas</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Classificados_Pelotas</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/nike.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Nike Ofertas</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Nike_Ofertas</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Opiniao/Imagem/imagem-marcas-philco.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Comunidade Philco</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Comunidade_Philco</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+    
+                            <div class="container__seguidor">
+    
+                                <a href="#" class="link__seguidor">
+                                    <img draggable="false" src="./Assets/Perfil/Imagens-Banner/toyota.png" alt="Icone Perfil" class="imagem__seguidor">
+    
+                                    <div class="container__nome___seguidor">
+                                        <span class="nome__seguidor">Toyota Supra</span>
+                                        
+                                    </div>
+                                </a>
+    
+                                <span class="arroba__seguidor">@Toyota_Supra</span>
+    
+                                <button class="botao__seguir___seguidor botao__seguir-ativo">Seguir</button>
+
+                                <button class="botao__seguindo___seguidor">Seguindo</button>
+
+                            </div>
+
+
+                        </ul>
+
+
+                    </section>
+                </div>
+
+            </section>
+
+            <section class="secao__artigos">
+
+                <div class="tabs-cabecalho__artigos">
+                    <button class="tablinks-artigos tab-inicio" id="defaultOpen-artigos" onclick="openTabArtigo(event, 'inicio')">Inicio</button>
+                    <button class="tablinks-artigos tab-opinioes" onclick="openTabArtigo(event, 'opinioes')">Opiniões</button>
+                    <button class="tablinks-artigos tab-descricoes" onclick="openTabArtigo(event, 'descricoes')">Descrições</button>
+                    <button class="tablinks-artigos tab-avaliacoes" onclick="openTabArtigo(event, 'avaliacoes')">Avaliações</button>
+                    <button class="tablinks-artigos tab-revisoes" onclick="openTabArtigo(event, 'revisoes')">Revisões</button>
+                </div>
+
+                <section class="secao__cards___artigos tabcontent-artigos" id="inicio">
+
+                    <ul class="lista__cards___artigos">
+
+                        <a href="./revisao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-1.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___revisao">Revisão</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./avaliacao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-2.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___avaliacao">Avaliação</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./opiniao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-3.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___opiniao">Opinião</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./descricao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-4.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___descricao">Descrição</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./avaliacao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-5.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___avaliacao">Avaliação</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./opiniao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-6.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___opiniao">Opinião</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+                        
+                        <a href="./revisao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-7.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___revisao">Revisão</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./avaliacao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-8.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___avaliacao">Avaliação</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./opiniao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-9.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___opiniao">Opinião</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./descricao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-10.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___descricao">Descrição</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./avaliacao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-11.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___avaliacao">Avaliação</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./opiniao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-12.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___opiniao">Opinião</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                    </ul>
+
+
+
+                </section>
+
+                <section class="secao__cards___artigos tabcontent-artigos" id="opinioes">
+
+                    <ul class="lista__cards___artigos">
+
+                        <a href="./opiniao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-3.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___opiniao">Opinião</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./opiniao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-7.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___opiniao">Opinião</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./opiniao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-10.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___opiniao">Opinião</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+                        
+                    </ul>
+
+                </section>
+
+                <section class="secao__cards___artigos tabcontent-artigos" id="descricoes">
+
+                    <ul class="lista__cards___artigos">
+
+                        <a href="./descricao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-4.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___descricao">Descrição</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./descricao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-8.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___descricao">Descrição</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./descricao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-11.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___descricao">Descrição</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+                        
+                    </ul>
+
+                </section>
+
+                <section class="secao__cards___artigos tabcontent-artigos" id="avaliacoes">
+
+                    <ul class="lista__cards___artigos">    
+
+                        <a href="./avaliacao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-2.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___avaliacao">Avaliação</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>        
+
+                        <a href="./avaliacao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-5.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___avaliacao">Avaliação</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./avaliacao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-9.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___avaliacao">Avaliação</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./avaliacao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-12.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___avaliacao">Avaliação</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+                        
+                    </ul>
+
+                </section>
+
+                <section class="secao__cards___artigos tabcontent-artigos" id="revisoes">
+
+                    <ul class="lista__cards___artigos">
+
+                        <a href="./revisao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-1.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___revisao">Revisão</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                        <a href="./revisao.html" class="item__card___artigo">
+
+                            <div class="container__imagem___artigo">
+
+                                <img src="./Assets/Perfil/Imagens-Banner/imagem-banner-6.png" alt="Imagem Artigo" class="imagem__artigo">
+
+                                <div class="container__info___artigo">
+                                    <button class="botao__tipo___artigo tipo__artigo___revisao">Revisão</button>
+
+                                    <span class="tempo__info___artigo">12:30</span>
+                                </div>
+                            </div>
+
+                            <h3 class="titulo__info___artigo">Panela de Pressão Elétrica eos Multicooker 5L Inox EPP50MI 110V 110V.</h3>
+
+                            <div class="container__rodape___artigo">
+
+                                <span class="horario___rodape___artigo">08/10/2021 às 13:13</span>
+
+                                <span class="tempo__leitura___artigo">5 min de leitura</span>
+                                
+                            </div>
+
+                        </a>
+
+                    </ul>
+
+                </section>
+
+            </section>
+
+        </main>
+
+
+        <footer class="rodape rodape-produtos" id="rodape__feed">
+
+            <address class="secao__marca" id="secao__marca-desktop">
+
+                <img src="./Assets/Vetores/logo-detalhei-footer.svg" alt="Logo Detalhei" class="logo___detalhei-footer">
+
+                <p class="texto__copyright">Copyright © 2001-2021 ,Detalhei Todos os direitos reservados.</p>
+
+                <div class="container__redes-sociais">
+
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-FACEBOOK.svg" alt="Facebook Detalhei" class="logo__redes-sociais"></a>
+                    
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-TWITTER.svg" alt="Twitter Detalhei" class="logo__redes-sociais"></a>
+                    
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-INSTAGRAM.svg" alt="Instagram Detalhei" class="logo__redes-sociais"></a>
+                    
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-YOUTUBE.svg" alt="Youtube Detalhei" class="logo__redes-sociais"></a>
+                    
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-LINKEDIN.svg" alt="Linkedin Detalhei" class="logo__redes-sociais"></a>
+
+                </div>
+            </address>
+
+            <img src="./Assets/Vetores/logo-detalhei-footer.svg" alt="Logo Detalhei" class="logo___detalhei-footer-mobile">
+
+            <section class="secao__lista" id="secao__lista-footer-margin">
+
+                <h8 class="titulo__lista-footer">Detalhei</h8>
+                
+                <ul class="lista__detalhei">
+
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Consultoria</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Contato</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Privacidade</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Ofertas</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Minha Garantia</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Empresarial</a></li>
+    
+                </ul>
+            
+            </section>
+
+            <section class="secao__lista">
+
+                <h8 class="titulo__lista-footer">Top 5</h8>
+                
+                <ul class="lista__detalhei">
+
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Air Flayer</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Batedeiras</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Eletricos</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Liquidificadores</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Fornos</a></li>
+    
+                </ul>
+            
+            </section>
+
+            <section class="secao__lista">
+
+                <h8 class="titulo__lista-footer">Produtos</h8>
+                
+                <ul class="lista__detalhei">
+
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Fogões</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Desidratador</a></li>
+                    <li class="item__lista-footer"><a class="item__lista-footer" href="./login.html">Churrasqueira</a></li>
+    
+                </ul>
+            
+            </section>
+
+            <address class="secao__marca" id="secao__marca-mobile">
+
+                <p class="texto__copyright">Copyright © 2001-2021 ,Detalhei Todos os direitos reservados.</p>
+
+                <div class="container__redes-sociais">
+
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-FACEBOOK.svg" alt="Facebook Detalhei" class="logo__redes-sociais"></a>
+                    
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-TWITTER.svg" alt="Twitter Detalhei" class="logo__redes-sociais"></a>
+                    
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-INSTAGRAM.svg" alt="Instagram Detalhei" class="logo__redes-sociais"></a>
+                    
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-YOUTUBE.svg" alt="Youtube Detalhei" class="logo__redes-sociais"></a>
+                    
+                    <a href="#"><img src="./Assets/Icones-Redes-Sociais/ICO-LINKEDIN.svg" alt="Linkedin Detalhei" class="logo__redes-sociais"></a>
+
+                </div>
+            </address>
+
+        </footer>
+
+        <script src="./Componentes/compartilha.js" type="text/javascript"></script>
+        <script src="./Componentes/Perfil/tabSeguidores.js" type="text/javascript"></script>
+        <script src="./Componentes/Perfil/tab.js" type="text/javascript"></script>
+        <script src="./Componentes/Perfil/abreSeguidores.js" type="text/javascript"></script>
+        <script src="./Componentes/Perfil/abreMarcas.js" type="text/javascript"></script>
+        <script src="./Componentes/Perfil/abreComunidade.js" type="text/javascript"></script>
+        <script src="./Componentes/Perfil/abreCategorias.js" type="text/javascript"></script>
+        <script src="./Componentes/Cabecalho/abrePesquisa.js" type="text/javascript"></script>
+        <script src="./Componentes/Cabecalho/abreMenu.js" type="text/javascript"></script>
+        <script src="./Componentes/Cabecalho/abreVerTodos.js" type="text/javascript"></script>
+        <script src="./Componentes/Cabecalho/tabsMenuAbertoLinks.js" type="text/javascript"></script>
+        <script src="./Componentes/Cabecalho/abreTop5.js" type="text/javascript"></script>
+        <script src="./Componentes/Cabecalho/abreBlog.js" type="text/javascript"></script>
+        <script src="./Componentes/Cabecalho/abrePesquisaResponsivo.js" type="text/javascript"></script>
+        <script src="./Componentes/Cabecalho/abrePerfilDropdown.js" type="text/javascript"></script>
+        <script src="./Componentes/abreOfertasMobile.js" type="text/javascript"></script>
+    </body>
+
+</html>
